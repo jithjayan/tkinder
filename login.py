@@ -7,6 +7,7 @@ win.maxsize(700,700)
 
 def reg():
     win=tkinter.Tk()
+    win.configure(bg="coral")
     win.minsize(500,500)
     win.maxsize(700,700)
 
@@ -24,7 +25,9 @@ def reg():
     l3.place(x=150,y=100)
     e2=tkinter.Entry(win)
     e2.place(x=220,y=100)
-    
+    bt3=tkinter.Button(win,text="Submit",bg="light blue",activebackground="grey",activeforeground="white")
+    bt3.place(x=170,y=180)
+
     win.mainloop()
 
 
